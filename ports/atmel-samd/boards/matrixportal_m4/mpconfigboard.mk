@@ -16,10 +16,10 @@ CIRCUITPY_AESIO = 0
 CIRCUITPY_FLOPPYIO = 0
 CIRCUITPY_PARALLELDISPLAY = 0
 CIRCUITPY_SHARPDISPLAY = 0
-CIRCUITPY_ULAB = 0
+CIRCUITPY_ULAB = 1
 
 # Include these Python libraries in firmware.
-FROZEN_MPY_DIRS += $(TOP)/frozen/Adafruit_CircuitPython_Requests
-FROZEN_MPY_DIRS += $(TOP)/frozen/Adafruit_CircuitPython_PortalBase
+#FROZEN_MPY_DIRS += $(TOP)/frozen/Adafruit_CircuitPython_Requests
+#FROZEN_MPY_DIRS += $(TOP)/frozen/Adafruit_CircuitPython_PortalBase
 FROZEN_MPY_DIRS += $(TOP)/frozen/Adafruit_CircuitPython_ESP32SPI
 FROZEN_MPY_DIRS += $(TOP)/frozen/Adafruit_CircuitPython_NeoPixel
